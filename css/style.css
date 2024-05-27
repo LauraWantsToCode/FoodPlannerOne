@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.LineOne, .LineTwo, .LineThree, .LineFour, .LineFive {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+  .Box {
+    justify-content: center;
+    float: left;
+    width: 12%;
+    display: flex;
+    border: 1px solid black;
+    margin: 3px;
+    flex-direction: row; 
+  }
